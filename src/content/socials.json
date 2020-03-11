@@ -1,17 +1,17 @@
  [
-    { "name": "LinkedIn", 
+    { "name": "Linkedin", 
         "link" : "https://www.linkedin.com/in/nsehmbhi/"
     },
     { "name": "Figma", 
         "link" : "https://www.figma.com/@nivaaz"
     },
-    { "name": "LinkedIn", 
-        "link" : "linkedin.com"
+    { "name": "Github", 
+        "link" : "https://github.com/nivaaz"
     },
-    { "name": "LinkedIn", 
-        "link" : "linkedin.com"
+    { "name": "Canva", 
+        "link" : "https://www.canva.com/nivaaaaaz"
     },
-    { "name": "LinkedIn", 
-        "link" : "linkedin.com"
+    { "name": "Codepen", 
+        "link" : "https://codepen.io/nivaaaaaz"
     }
 ]
