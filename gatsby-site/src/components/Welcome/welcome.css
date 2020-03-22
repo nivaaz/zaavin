@@ -4,12 +4,21 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+/***************      TEXT        ***************/
 h1{
     font-family: 'Roboto Mono', monospace;
 }
 p{
     font-family: 'Roboto Mono', monospace;
 }
-.what{
-    color: pink;
-};
+h1.title{
+    margin: 2em auto;
+    font-size: 50pt;
+}
+h2.iam{
+    margin: 2em auto;
+}
+
+.welcome{
+    padding: 2em;
+}

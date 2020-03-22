@@ -1,3 +1,8 @@
 .headerText{
     margin: 0;
+    padding: 0.5em;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
 }
