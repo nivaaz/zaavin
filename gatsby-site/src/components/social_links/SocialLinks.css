@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+.socials{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+a, p{
+    color: #ff4757;
+    text-transform: none;
+    text-decoration: none;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
