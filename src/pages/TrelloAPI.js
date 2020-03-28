@@ -5,22 +5,22 @@ import PrimaryButton from "../components/primary_button/PrimaryButton"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 
-const TrelloAPI = () => (
+const trelloAPI = () => (
   <Layout>
     <SEO title="Page two" />
-    <h1 > Trello pop </h1>
+    <h1> Trello pop </h1>
     <p>Some text about what this app does</p>
     <h3>Built with </h3>
     <p> Vue </p>
 
     <PrimaryButton
-    text = "Let's pop some cards"
+      text="Let's pop some cards"
     />
 
     <div>
-      <Link> Learn about how I create the app</Link>
+      <Link to='www.google.com'> Learn about how I create the app</Link>
     </div>
   </Layout>
 )
 
-export default TrelloAPI
+export default trelloAPI

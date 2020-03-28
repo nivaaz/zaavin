@@ -1,7 +1,8 @@
 import React from "react"
 
-const PrimaryButton = (text) =>{
-    return (
-        <button> {text} </button>
-    )
+const PrimaryButton = (props) => {
+  return (
+    <button> {props.text} </button>
+  )
 }
+export default PrimaryButton
