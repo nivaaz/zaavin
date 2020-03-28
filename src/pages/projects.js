@@ -13,7 +13,6 @@ const SecondPage = () => (
     <h2> We'll here's a few you can check out</h2>
 
     <AllApps />
-
   </Layout>
 )
 

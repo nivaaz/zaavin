@@ -13,12 +13,10 @@ const trelloAPI = () => (
     <h3>Built with </h3>
     <p> Vue </p>
 
-    <PrimaryButton
-      text="Let's pop some cards"
-    />
+    <PrimaryButton text="Let's pop some cards" />
 
     <div>
-      <Link to='www.google.com'> Learn about how I create the app</Link>
+      <Link to="www.google.com"> Learn about how I create the app</Link>
     </div>
   </Layout>
 )
