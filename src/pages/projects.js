@@ -11,9 +11,8 @@ const SecondPage = () => (
     <SEO title="Page two" />
     <h1>Oh, you want to know about some of my projects?</h1>
     <h2> We'll here's a few you can check out</h2>
-    
-    <AllApps/>
 
+    <AllApps />
   </Layout>
 )
 

@@ -5,15 +5,12 @@ import styles from "./header.css"
 
 const Header = ({ siteTitle }) => (
   <header className={styles.header}>
-      <h1 className="headerText">
-        <Link
-          to="/"
-          className="headerText"
-        >
-          {/* {siteTitle} */}
-          Nivaaz Sehmbhi
-        </Link>
-      </h1>
+    <h1 className="headerText">
+      <Link to="/" className="headerText">
+        {/* {siteTitle} */}
+        Nivaaz Sehmbhi
+      </Link>
+    </h1>
   </header>
 )
 
