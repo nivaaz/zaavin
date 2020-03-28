@@ -1,8 +1,4 @@
 [
-    { "name": "Trello API", 
-        "link" : "/TrelloAPI"
-    },
-    { "name": "Data gram", 
-        "link" : "https://www.linkedin.com/in/nsehmbhi/"
-    }
+  { "name": "Trello API", "link": "/trelloAPI" },
+  { "name": "Data gram", "link": "https://www.linkedin.com/in/nsehmbhi/" }
 ]
