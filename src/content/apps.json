@@ -1,4 +1,16 @@
 [
-  { "name": "Trello API", "link": "/trelloAPI" },
-  { "name": "Data gram", "link": "https://www.linkedin.com/in/nsehmbhi/" }
+  { "name": "Trello API",
+    "link": "/trelloAPI",
+    "tech": ["VueJS"],
+    "info":"TrelloPop is an app using the Trello API. This allows fast editing of boards and cards in trello." },
+  { "name": "Data gram",
+    "link": "https://www.linkedin.com/in/nsehmbhi/",
+    "tech": ["ReactJS & Typescript"],
+    "info":" Datagram uses the Instagram API to displays user insights."
+   },
+   { "name": "Canvamily",
+    "link": "https://www.linkedin.com/in/nsehmbhi/",
+    "tech": ["ReactJS"],
+    "info":"A family feud app where uses can enter their own data and play with a custom frontend."
+   }
 ]

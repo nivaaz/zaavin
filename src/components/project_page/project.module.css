@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    margin: auto;
+}
+.section{
+    display: grid;
+    grid-gap: 1em;
+}
+.lower{
+    position: absolute;
+    bottom: 0;
+}

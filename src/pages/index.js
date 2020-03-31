@@ -10,7 +10,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Welcome />
     <Link to="/projects/"> Projects </Link>
-    <Link to="/trelloAPI/"> Projects </Link>
+    <Link to="/TrelloAPI/"> Trello Pop </Link>
   </Layout>
 )
 
