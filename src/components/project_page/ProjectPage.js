@@ -2,36 +2,52 @@ import React from "react"
 import PrimaryButton from "../primary_button/PrimaryButton"
 import appInfo from "../../content/apps";
 import styles from "./project.module.css";
+import { Link } from "gatsby";
 
 class ProjectPage extends React.PureComponent {
     constructor(props){
         super(props);
         this.state = {
-            title : '',
-            info: "Information about project will look something like this",
-            stack: "VueJS"
+            name: "title",
+            info: "info",
+            tech: "tech", 
+            link: "link", 
+            howToLink:"howToLink",
+            
         }
     }
-    componentDidMount(){
+    componentWillMount(){
         console.log(appInfo)
-        appInfo.map((key)=>{
-
+        var vibes = appInfo.map((key)=>{
+            if (key.id==this.props.title){
+               let vibe = this.state;
+                vibe.info = key.info;
+                vibe.name = key.name;
+                vibe.tech = key.tech;
+                vibe.link = key.link;
+                vibe.howToLink = key.howToLink;
+                return  vibe;
+            }
         })
+        this.setState({
+            title: vibes.title
+        }, console.log("UPDATED STATE", this.state));
     }
     render(){
         return(
             <div className={styles.container}>
              <div className={styles.section}>
-                <h1> {this.props.title} </h1>
+                <h1> {this.state.name} </h1>
                 <h3> {this.state.info} </h3>
-                <p> Technology used: {this.state.stack} </p>
+                <p> Technology used: {this.state.tech} </p>
                 <PrimaryButton
                     text="Check out App"
                 />  
             </div >
             <div className={styles.lower}>
-                <p> Learn about how I created this app </p>
+              <Link to="/"> Learn about how I create the app</Link>
             </div>
+  
             </div>
     )}
 }
