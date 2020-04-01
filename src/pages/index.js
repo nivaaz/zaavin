@@ -9,8 +9,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Welcome />
-    <Link to="/projects/"> Projects </Link>
+    <Link to="/Projects/"> Projects </Link>
     <Link to="/TrelloAPI/"> Trello Pop </Link>
+    <Link to="/Canvamily/"> Canvamily </Link>
   </Layout>
 )
 

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+.appCard{
+    padding: 1em;
+    border: 2px solid #ff4757;
+    color: #ff4757;    
+}
+.apps{
+    padding: 1em;
+    text-align: center;
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+.container{
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 1em;
+    box-shadow:0px 5px 15px 0px#b32f3a73 ;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        grid-template-columns: unset;
+        grid-template-rows: 1fr 1fr;
+    }
+  }

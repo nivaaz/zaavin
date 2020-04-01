@@ -25,4 +25,5 @@ h3.you{
 
 .welcome{
     padding: 2em;
+    max-width: 750px;
 }
