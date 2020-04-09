@@ -26,10 +26,6 @@ const AllApps = () => {
   }
   return (<div>
      {renderApps()}
-
-    
     </div>)
 }
-
-
 export default AllApps

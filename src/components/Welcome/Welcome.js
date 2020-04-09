@@ -1,9 +1,9 @@
-import React from "react"
-import styles from "./welcome.css"
+import React from "react";
+import styles from "./welcome.module.css";
 
 const Welcome = () => (
-  <div className="welcome">
-    <h1 className="title"> Hi, I'm Nivaaz </h1>
+  <div className={styles.welcome}>
+    <h1 className={styles.title}> Hi, I'm Nivaaz </h1>
     <h2>
       {" "}
       Nivaaz is an electrical engineer turned software engineer and
@@ -28,7 +28,7 @@ const Welcome = () => (
       and painting or trying to pat all the dogs in Sydney. 🐕🐕‍🦺🐩
     </p>
 
-    <h3 className="you"> So, tell me about you </h3>
+    <h3 className={styles.you}> So, tell me about you </h3>
     <p>
       {" "}
       Are you interested in design? Omg me too! I love creating product protypes

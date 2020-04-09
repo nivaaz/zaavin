@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap');
+
+*{
+    font-family: 'Roboto Mono', monospace;
+}
+
+/***************      TEXT        ***************/
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+p{
+    font-family: 'Roboto Mono', monospace;
+}
+h1.title{
+    margin: 1em auto;
+    font-size: 50pt;
+}
+h2.iam{
+    margin: 2em auto;
+}
+h3.you{
+    padding: 2em 0 ;
+}
+
+
+.welcome{
+    padding: 2em;
+    max-width: 750px;
+}

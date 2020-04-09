@@ -1,16 +1,21 @@
 import socials from "../../content/socials"
 import React from "react"
-// import styles from './SocialLinks.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from './SocialLinks.module.css';
 
-export const SocialLinks = () => {
+
+const SocialLinks = () => {
+  const socialList = socials.map((key)=>{
+    return (
+    <h3><a href={key.link}>
+    <FontAwesomeIcon icon={['fab', key.icon]} />
+    </a></h3>
+    )
+  })
   return (
-    <div className="socials">
-      {socials.map(val => (
-        <a href={val.link}>
-          {" "}
-          <p>{val.name}</p>{" "}
-        </a>
-      ))}
+  <div className={styles.social_container}>
+    {socialList}
     </div>
-  )
+    )
 }
+export default SocialLinks

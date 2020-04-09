@@ -1,7 +1,25 @@
 [
-  { "name": "Linkedin", "link": "https://www.linkedin.com/in/nsehmbhi/" },
-  { "name": "Figma", "link": "https://www.figma.com/@nivaaz" },
-  { "name": "Github", "link": "https://github.com/nivaaz" },
-  { "name": "Medium", "link": "https://www.medium.com/@nivaaz" },
-  { "name": "Codepen", "link": "https://codepen.io/nivaaaaaz" }
+  { "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/nsehmbhi/",
+    "icon": "linkedin"  
+  },
+  { "name": "Figma",
+    "link": "https://www.figma.com/@nivaaz",
+    "icon": "figma"  
+  },
+  { "name": "Github",
+    "link": "https://github.com/nivaaz",
+    "icon": "github"  
+  },
+  { "name": "Medium",
+    "link": "https://www.medium.com/@nivaaz",
+    "icon": "medium"  
+  },
+  { "name": "Instagram",
+    "link": "https://www.instagram.com/zaaaaavin",
+    "icon": "instagram"  
+  },
+  { "name": "Codepen",
+     "link": "https://codepen.io/nivaaaaaz", 
+    "icon": "codepen" }
 ]
