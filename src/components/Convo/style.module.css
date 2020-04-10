@@ -26,7 +26,7 @@
 }
 .responseButtonSelected{
     background: #ff6b81;
-    opacity: unset;
+    opacity: 100%;
     color: white;
 }
 .ansContainer{
