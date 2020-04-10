@@ -1,6 +1,6 @@
-import React from "react"
+import React from "./node_modules/react"
 import convo from "../../content/convo"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon } from './node_modules/@fortawesome/react-fontawesome';
 import styles from "./convo.module.css";
 
 class Convo extends React.Component {
