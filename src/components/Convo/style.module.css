@@ -19,6 +19,7 @@
     border-radius: 2em;
     color: black;
     margin-left: 1em;
+    cursor: pointer;
 }
 .responseButton:hover, .responseButtonSelected:hover{
     border: 1px solid white;
@@ -28,6 +29,7 @@
     background: #ff6b81;
     opacity: 100%;
     color: white;
+    cursor: pointer;
 }
 .ansContainer{
     text-align: -webkit-right;
