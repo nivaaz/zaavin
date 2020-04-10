@@ -6,29 +6,29 @@ import styles from "./convo.module.css";
 
 class Convo extends React.Component {
     state = {
-        question: 0,
+        quest: 0,
         answers: [],
     };
     onClickResponse = (e) => {
         let ans = this.state.answers;
         ans[e.target.name] = e.target.value;
-        const currQuestion = Number(e.target.name) + 1;
+        const currquest = Number(e.target.name) + 1;
         this.setState(
             {
-                question: currQuestion,
+                quest: currquest,
                 answers: ans
             }
             , console.log(this.state))
 
     }
-    renderResponses = (resp, questionId) => {
+    renderResponses = (resp, questId) => {
         const btns = resp.map((val, ind) => {
-            if (this.state.answers[questionId] == ind) {
+            if (this.state.answers[questId] == ind) {
                 return (
                     <button
                         className={styles.responseButtonSelected}
                         value={ind}
-                        name={questionId}
+                        name={questId}
                         key={ind}
                         onClick={this.onClickResponse}>
                         {val}
@@ -38,7 +38,7 @@ class Convo extends React.Component {
                     <button
                         className={styles.responseButton}
                         value={ind}
-                        name={questionId}
+                        name={questId}
                         key={ind}
                         onClick={this.onClickResponse}>
                         {val}
@@ -51,20 +51,20 @@ class Convo extends React.Component {
         if (this.state.answers[val] != 0) {
             return 
         } else {
-            return (<a href={key.link}><p className={styles.question}> {key.render} <FontAwesomeIcon icon={['fab', key.social]}/> </p> </a>)
+            return (<a href={key.link}><p className={styles.quest}> {key.render} <FontAwesomeIcon icon={['fab', key.social]}/> </p> </a>)
         }
     }
     renderConvo = () => {
         const x = convo.map((key, val) => {
-            if (val > this.state.question) {
+            if (val > this.state.quest) {
                 return (<> </>)
             } else {
-                const q = key.question;
+                const q = key.quest;
                 const replies = this.renderResponses(key.responses, val);
                 const ans = this.renderCheckOut(val, key);
                 return (
                     <div key={val}>
-                        <p className={styles.question}>{q}</p>
+                        <p className={styles.quest}>{q}</p>
                         {replies}
                         {ans}
                     </div>)
@@ -76,7 +76,7 @@ class Convo extends React.Component {
     render() {
         return (
             <div className={styles.convoContainer}>
-                <p className={styles.question}>So tell me about you!</p>
+                <p className={styles.quest}>So tell me about you!</p>
                 {this.renderConvo()}
             </div>)
     }
