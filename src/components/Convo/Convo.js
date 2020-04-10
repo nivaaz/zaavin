@@ -1,6 +1,7 @@
-import React from "./node_modules/react"
-import convo from "../../content/convo"
-import { FontAwesomeIcon } from './node_modules/@fortawesome/react-fontawesome';
+import React from "react"
+import convo from "../../content/convo.json"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 import styles from "./convo.module.css";
 
 class Convo extends React.Component {
@@ -12,7 +13,6 @@ class Convo extends React.Component {
         let ans = this.state.answers;
         ans[e.target.name] = e.target.value;
         const currQuestion = Number(e.target.name) + 1;
- 
         this.setState(
             {
                 question: currQuestion,
