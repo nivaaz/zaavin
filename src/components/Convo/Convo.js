@@ -12,7 +12,7 @@ class Convo extends React.Component {
         let ans = this.state.answers;
         ans[e.target.name] = e.target.value;
         const currQuestion = Number(e.target.name) + 1;
-
+ 
         this.setState(
             {
                 question: currQuestion,
