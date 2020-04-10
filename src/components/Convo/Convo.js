@@ -1,7 +1,6 @@
 import React from "react"
 import convo from "../../content/convo.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import styles from "./convo.module.css";
 
 class Convo extends React.Component {

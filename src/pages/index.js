@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout/layout"
 import Welcome from "../components/Welcome/Welcome"
 import SocialLinks from "../components/social_links/SocialLinks"
-import Convo from "../components/convo/convo"
+import Convo from "../components/Convo/Convo.js"
 import SEO from "../components/seo"
 import { faFigma, faLinkedin,  faGithub,faInstagram, faMedium, faCodepen} from '@fortawesome/free-brands-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
