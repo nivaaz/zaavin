@@ -14,6 +14,7 @@ p{
 h1.title{
     margin: 1em auto;
     font-size: 50pt;
+    line-height: 50pt;
 }
 h2.iam{
     margin: 2em auto;
@@ -22,8 +23,16 @@ h3.you{
     padding: 2em 0 ;
 }
 
-
 .welcome{
     padding: 2em;
-    max-width: 750px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.drawing{
+    margin: 0 auto;
+}
+img.nivaazimage{
+    height: 50vw;
+    margin: 0 auto;
+    padding: 0;
 }

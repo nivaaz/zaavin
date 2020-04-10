@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./welcome.module.css";
-
+import Nivaazdrawing from "../../images/Nivaazdrawing.svg";
 const Welcome = () => (
   <div className={styles.welcome}>
+    <div>
     <h1 className={styles.title}> Hi, I'm Nivaaz </h1>
     <h2>
       {" "}
@@ -27,27 +28,10 @@ const Welcome = () => (
       learnings on Medium, prototyping designs for products on Figma & Codepen,
       and painting or trying to pat all the dogs in Sydney. 🐕🐕‍🦺🐩
     </p>
-
-    {/* <h3 className={styles.you}> So, tell me about you </h3> */}
-    {/* <p>
-      {" "}
-      Are you interested in design? Omg me too! I love creating product protypes
-      on [figma]
-    </p>
-    <p>
-      {" "}
-      You're more of a css person? Love that! [Codepen] is my goto when I wanna
-      be creative?
-    </p>
-    <p>
-      {" "}
-      Oh well, I've got some cool programming projects. Wanna check them out
-      here?
-    </p>
-
-    <p>
-      OOOO Do you like puppies?You have to check out my dog Rubi on Instagram
-    </p> */}
+    </div>
+    <div className={styles.drawing}>
+        <img src={Nivaazdrawing} className={styles.nivaazimage}/>
+    </div>
   </div>
 )
 

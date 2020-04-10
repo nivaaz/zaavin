@@ -1,62 +1,83 @@
 import React from "react"
 import convo from "../../content/convo"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import styles from "./convo.module.css";
 
-class Convo extends React.Component{
+class Convo extends React.Component {
     state = {
         question: 0,
         answers: [],
     };
-    onClickResponse = (e)=>{
+    onClickResponse = (e) => {
         let ans = this.state.answers;
         ans[e.target.name] = e.target.value;
-        const currQuestion = Number(e.target.name) +1;
-        
+        const currQuestion = Number(e.target.name) + 1;
+
         this.setState(
-            {question:currQuestion,
-            answers: ans}
-            , console.log(this.state) )
+            {
+                question: currQuestion,
+                answers: ans
+            }
+            , console.log(this.state))
 
     }
-    renderResponses = (resp, questionId)=>{
-        return resp.map((val, ind)=>{
-            return (
-            <button 
-            value={ind}
-            name={questionId} 
-            key={ind}
-            onClick = {this.onClickResponse}>
-                 {val}
-                  </button>)
+    renderResponses = (resp, questionId) => {
+        const btns = resp.map((val, ind) => {
+            if (this.state.answers[questionId] == ind) {
+                return (
+                    <button
+                        className={styles.responseButtonSelected}
+                        value={ind}
+                        name={questionId}
+                        key={ind}
+                        onClick={this.onClickResponse}>
+                        {val}
+                    </button>)
+            } else {
+                return (
+                    <button
+                        className={styles.responseButton}
+                        value={ind}
+                        name={questionId}
+                        key={ind}
+                        onClick={this.onClickResponse}>
+                        {val}
+                    </button>)
+            }
         })
+        return <div className={styles.ansContainer}> {btns} </div>
     }
-    numbum = () => {
-        const x = convo.map((key, val)=>{
-            if (val > this.state.question){
+    renderCheckOut = (val, key) => {
+        if (this.state.answers[val] != 0) {
+            return 
+        } else {
+            return (<a href={key.link}><p className={styles.question}> {key.render} <FontAwesomeIcon icon={['fab', key.social]}/> </p> </a>)
+        }
+    }
+    renderConvo = () => {
+        const x = convo.map((key, val) => {
+            if (val > this.state.question) {
                 return (<> </>)
             } else {
                 const q = key.question;
-                const replies = this.renderResponses(key.responses, val)
-                const ans =  (this.state.answers[val] == 0) ? key.render : "" ;
-                const icon = (this.state.answers[val] == 0) ? <FontAwesomeIcon icon={['fab', key.social]}/> :"";
+                const replies = this.renderResponses(key.responses, val);
+                const ans = this.renderCheckOut(val, key);
                 return (
-                <div key = {val}>
-                    <h3>{q}</h3>
-                    {replies} 
-                    <div> 
-                        {ans} {icon}
-                     </div> 
-                </div>)
+                    <div key={val}>
+                        <p className={styles.question}>{q}</p>
+                        {replies}
+                        {ans}
+                    </div>)
             }
         }
         )
-        return ( <div>{x}</div> )
-    } 
-    render(){ 
+        return (<div>{x}</div>)
+    }
+    render() {
         return (
-            <div>
-                <h2> So tell me about yourself.</h2>
-            {this.numbum()}
+            <div className={styles.convoContainer}>
+                <p className={styles.question}>So tell me about you!</p>
+                {this.renderConvo()}
             </div>)
     }
 }
