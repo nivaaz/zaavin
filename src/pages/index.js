@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from "../components/layout/layout"
 import Welcome from "../components/Welcome/Welcome"
 import SocialLinks from "../components/social_links/SocialLinks"
+import Convo from "../components/convo/Convo"
 import SEO from "../components/seo"
 import { faFigma, faLinkedin,  faGithub,faInstagram, faMedium, faCodepen} from '@fortawesome/free-brands-svg-icons';
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <Link to="/Projects/"> Projects </Link>
     <Link to="/TrelloAPI/"> Trello Pop </Link>
     <Link to="/Canvamily/"> Canvamily </Link>
+    <Convo/>
     <SocialLinks/>
   </Layout>
 )

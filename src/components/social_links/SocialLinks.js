@@ -5,9 +5,9 @@ import styles from './SocialLinks.module.css';
 
 
 const SocialLinks = () => {
-  const socialList = socials.map((key)=>{
+  const socialList = socials.map((key, val)=>{
     return (
-    <h3><a href={key.link}>
+    <h3 key={val}><a href={key.link}>
     <FontAwesomeIcon icon={['fab', key.icon]} />
     </a></h3>
     )

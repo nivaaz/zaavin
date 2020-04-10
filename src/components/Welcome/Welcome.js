@@ -28,8 +28,8 @@ const Welcome = () => (
       and painting or trying to pat all the dogs in Sydney. 🐕🐕‍🦺🐩
     </p>
 
-    <h3 className={styles.you}> So, tell me about you </h3>
-    <p>
+    {/* <h3 className={styles.you}> So, tell me about you </h3> */}
+    {/* <p>
       {" "}
       Are you interested in design? Omg me too! I love creating product protypes
       on [figma]
@@ -47,7 +47,7 @@ const Welcome = () => (
 
     <p>
       OOOO Do you like puppies?You have to check out my dog Rubi on Instagram
-    </p>
+    </p> */}
   </div>
 )
 

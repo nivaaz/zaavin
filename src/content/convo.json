@@ -1,0 +1,44 @@
+[
+    {
+        "question" : "Are you into design?",
+        "responses" : ["OMG yes!", "Nah, not really."],
+        "render" : "Same! That's so cool, you should definately check out my Figma account",
+        "link" : "",
+        "social":"figma"
+    },
+    {
+        "question" : "Are you into programming?",
+        "responses" : ["Yes! I like it!", "Nah, sorry mate."],
+        "render" : "Awsome! I'ma actually a self taught software engineer - my projects can be found here.",
+        "link" : "",
+        "social":"github"
+    },
+    {
+        "question" : "Have you every played with Codepen?",
+        "responses" : ["I dabble occasionally", "No..."],
+        "render" : "I do sometimes as well, here's a link to some of my creations!",
+        "link" : "",
+        "social":"codepen"
+    },
+    {
+        "question" : "Okay well are you into reading/ writing? I write articles regularly on Medium.",
+        "responses" : ["That's so cool, show me your work!", "Not my jam."],
+        "render" : "I write about my experiences and failures. You should let me know what you think!",
+        "link" : "",
+        "social":"medium"
+    },
+    {
+        "question" : "Are you into design?",
+        "responses" : ["OMG yes!", "Nah, not really"],
+        "render" : "Same! That's so cool, you should definately check out my Figma account",
+        "link" : "",
+        "social":"figma"
+    },
+    {
+        "question" : "Are you into design?",
+        "responses" : ["OMG yes!", "Nah, not really"],
+        "render" : "Same! That's so cool, you should definately check out my Figma account",
+        "link" : "",
+        "social":"figma"
+    }
+]
