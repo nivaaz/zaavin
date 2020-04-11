@@ -13,7 +13,6 @@ class ProjectPage extends React.PureComponent {
             tech: "tech", 
             link: "link", 
             howToLink:"howToLink",
-            
         }
     }
     componentWillMount(){

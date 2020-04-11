@@ -18,7 +18,6 @@ class Convo extends React.Component {
                 answers: ans
             }
             , console.log(this.state))
-
     }
     renderResponses = (resp, questionId) => {
         const btns = resp.map((val, ind) => {

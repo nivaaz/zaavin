@@ -14,7 +14,6 @@
 .responseButton, .responseButtonSelected{
     padding: 0.5em;
     background: #ff6b8179;
-    opacity: 81%;
     border: none;
     border-radius: 2em;
     color: black;
@@ -27,7 +26,6 @@
 }
 .responseButtonSelected{
     background: #ff6b81;
-    opacity: 100%;
     color: white;
     cursor: pointer;
 }
