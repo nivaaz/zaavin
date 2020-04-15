@@ -2,21 +2,13 @@
   { "id": "trelloapi",
     "name": "Trello API",
     "link": "/TrelloAPI",
-    "howToLink": "/",
+    "howToLink": "https://trello-api-nivaaz.netlify.com/",
     "tech": ["VueJS"],
     "info":"TrelloPop is an app using the Trello API. This allows fast editing of boards and cards in trello." 
   },
-    { 
-    "id": "datagram",
-    "name": "Data gram",
-    "howToLink": "/",
-    "link": "/Datagram/",
-    "tech": ["ReactJS & Typescript"],
-    "info":" Datagram uses the Instagram API to displays user insights."
-   },
    { "name": "Canvamily",
     "id": "canvamily",
-    "howToLink": "/",
+    "howToLink": "https://medium.com/@nivaaz/family-feud-app-in-react-js-plan-design-f4bf25e2bfa6",
     "link": "/Canvamily/",
     "tech": ["ReactJS"],
     "info":"A family feud app where uses can enter their own data and play with a custom frontend."
