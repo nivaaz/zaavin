@@ -12,13 +12,13 @@ const AllApps = () => {
       <div className={styles.info}>
         <h2> {key.name} </h2>
         <p> {key.info} </p>
-        <p> {key.tech} </p>
+        <p> Made with {key.tech} </p>
         <Link to={key.link}> Check out {key.name}</Link>
         <Link to={key.howToLink} > </Link>
          </div>
         
          <div className={styles.demo}>
-          <p> sample image of the app</p>
+          {/* <p> sample image of the app</p> */}
          </div>
          </div>
          )

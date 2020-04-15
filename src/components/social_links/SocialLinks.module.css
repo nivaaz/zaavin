@@ -17,6 +17,6 @@ a, p{
     margin: 0 auto;
     justify-items:center;
     width: 50vw;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(6, 1fr);
 }

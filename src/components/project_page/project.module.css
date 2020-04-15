@@ -5,7 +5,26 @@
 .section{
     display: grid;
     grid-gap: 1em;
+    justify-items: center;
 }
 .lower{
     padding: 4em;
+}
+.checkOutButton{
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 1em;
+}
+.checkOutButton p{
+    padding: 1em;
+    color: #ff4757;
+    max-width: 15em;
+    margin: 0 auto;
+}
+.checkOutButton p:hover{
+    text-shadow: none;
+}
+.checkOutButton a{
+    border: none;
+    margin: 0 auto;
 }

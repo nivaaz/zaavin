@@ -4,11 +4,11 @@ import AllApps from "../components/all_apps/AllApps"
 
 import SEO from "../components/seo"
 
-const projects = () => (
+const Projects = () => (
   <Layout>
     <SEO title="TrelloPop" />
     <AllApps/>
   </Layout>
 )
 
-export default projects
+export default Projects

@@ -1,8 +1,6 @@
 import React from "react"
-import PrimaryButton from "../primary_button/PrimaryButton"
 import appInfo from "../../content/apps";
 import styles from "./project.module.css";
-import { Link } from "gatsby";
 
 class ProjectPage extends React.PureComponent {
     constructor(props){
@@ -12,6 +10,7 @@ class ProjectPage extends React.PureComponent {
             info: "info",
             tech: "tech", 
             link: "link", 
+            linkto: "linkto", 
             howToLink:"howToLink",
         }
     }
@@ -24,6 +23,7 @@ class ProjectPage extends React.PureComponent {
                 vibe.name = key.name;
                 vibe.tech = key.tech;
                 vibe.link = key.link;
+                vibe.linkto = key.linkto;
                 vibe.howToLink = key.howToLink;
                 return  vibe;
             }
@@ -32,6 +32,19 @@ class ProjectPage extends React.PureComponent {
             title: vibes.title
         }, console.log("UPDATED STATE", this.state));
     }
+    renderHowTo = ()=>{
+        console.log(this.state.howToLink)
+        if (this.state.howToLink == ""){
+            return;
+        }else{
+           return (<div className={styles.lower}>
+                <a 
+                href={this.state.howToLink}>
+                Learn how I created the app
+                </a>
+            </div>)
+        }
+    }
     render(){
         return(
             <div className={styles.container}>
@@ -39,13 +52,16 @@ class ProjectPage extends React.PureComponent {
                 <h1> {this.state.name} </h1>
                 <h3> {this.state.info} </h3>
                 <p> Technology used: {this.state.tech} </p>
-                <PrimaryButton
-                    text="Check out App"
-                />  
+                
+                <div className = {styles.checkOutButton}>
+                    <a 
+                    href={this.state.linkto}>
+                    <p >Check out app
+                    </p>
+                    </a>
+                </div>
             </div >
-            <div className={styles.lower}>
-              <Link to="/"> Learn about how I create the app</Link>
-            </div>
+            {this.renderHowTo()}
   
             </div>
     )}

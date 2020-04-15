@@ -2,14 +2,16 @@
   { "id": "trelloapi",
     "name": "Trello API",
     "link": "/TrelloAPI",
-    "howToLink": "https://trello-api-nivaaz.netlify.com/",
+    "howToLink": "",
     "tech": ["VueJS"],
+    "linkto" : "https://trello-api-nivaaz.netlify.com/",
     "info":"TrelloPop is an app using the Trello API. This allows fast editing of boards and cards in trello." 
   },
-   { "name": "Canvamily",
-    "id": "canvamily",
+   { "id": "canvamily",
+    "name": "canvamily",
     "howToLink": "https://medium.com/@nivaaz/family-feud-app-in-react-js-plan-design-f4bf25e2bfa6",
     "link": "/Canvamily/",
+    "linkto" : "https://family-feud-nivaaz.netlify.com/",
     "tech": ["ReactJS"],
     "info":"A family feud app where uses can enter their own data and play with a custom frontend."
    }
