@@ -42,7 +42,7 @@
         "social":"instagram"
     },
     {
-        "question" : "Well I suppose we don't have too much in common. I suppose you can check out my Linkedin?",
+        "question" : "Well, I suppose you can check out my Linkedin?",
         "responses" : ["Sure"],
         "render" : "Well here is a link to my Linkedin, enjoy! Send me an inmail if you find my profile interesting!",
         "link" : "https://www.linkedin.com/in/nsehmbhi/",
