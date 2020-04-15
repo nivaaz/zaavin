@@ -14,7 +14,6 @@
 .responseButton, .responseButtonSelected{
     padding: 0.5em;
     background: #ff6b8179;
-    opacity: 80%;
     border: none;
     border-radius: 2em;
     color: black;
@@ -29,7 +28,6 @@
     background: #ff6b81;
     color: white;
     cursor: pointer;
-    opacity: 100%;
 }
 .ansContainer{
     text-align: -webkit-right;
