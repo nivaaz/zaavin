@@ -1,0 +1,192 @@
+[
+  {
+    "role": "Frontend Software Engineer",
+    "tag": ["Software", "Frontend", ""],
+    "company": "Canva",
+    "blurb": "Canva is Australia's fastest growing unicorn startup. It is a graphic design platform that allows users to create social media graphics, presentations, posters and other visual content.",
+    "startDate": "Nov 2019",
+    "endDate": "March 2020",
+    "experience": [
+      {
+        "text": "Implemented the onboarding experience for Canva for Education using TypeScript, ReactJS & Mobx.",
+        "tag": ["teamwork", "programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Discussed making data driven decisions with Amplitude to plan for future A/B testing and feature development.",
+        "tag": ["teamwork", "programming"],
+        "rank": "9"
+      },
+      {
+        "text": "Pitched and developed a reusable, personalised Family Feud app for a Canva Games Night from scratch.",
+        "tag": ["teamwork", "organisation", "collaboration"],
+        "rank": "1"
+      }
+    ]
+  },
+  {
+    "role": "Founder",
+    "tag": ["Software", "Entrepenurship", "product management", "innovation"],
+    "company": "Sukara Engineering",
+    "blurb": "Sukara engineering creates engineering design software smart, simple and easy to use.",
+    "startDate": "Nov 2019",
+    "endDate": "March 2020",
+    "experience": [
+      {
+        "text": "Curated an online platform to bridge the gap between automation, user focused design & engineering solutions.",
+        "tag": ["innovation", "programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Performed product and market research to assess product viability and create a competitive business plan.",
+        "tag": ["teamwork", "programming"],
+        "rank": "9"
+      }
+    ]
+  },
+  {
+    "role": "FPGA Software Engineering Intern",
+    "tag": ["Software", "Entrepenurship", "product management", "innovation"],
+    "company": "Vivienne Court Trading",
+    "blurb": "Vivcourt is a trading Company that donates all its profits to charity.",
+    "startDate": "May 2019",
+    "endDate": "Nov 2019",
+    "experience": [
+      {
+        "text": "Designed verification algorithms (UVM) and architecture for high speed trading algorithms in System Verilog.",
+        "tag": ["innovation", "programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "Undergraduate Electrical Engineer (Built Environment) ",
+    "tag": ["software", "consultant", "engineering", "electrical", "analytical"],
+    "company": "Aurecon",
+    "blurb": "Global engineering and infrastructure advisory company Aurecon has been named one of the most sought-after companies in Australia.",
+    "startDate": "Nov 2018",
+    "endDate": "May 2019",
+    "experience": [
+      {
+        "text": "Illustrated the power of Python and PowerShell to automate the editing of 500+ documents and PDF conversion.",
+        "tag": ["innovation", "programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Built reusable software solutions and guided my team towards innovative and efficient solutions.",
+        "tag": ["innovation", "programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Collaborated with clients, architects & co-workers to deliver designs with all engineering disciplines.",
+        "tag": ["innovation", "programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "Internship Designer & Software Intern",
+    "tag": ["software", "finance", "recruitment", "organisation", "software", "leadership"],
+    "company": "Vivienne Court Trading",
+    "blurb": "Vivcourt is a trading Company that donates all its profits to charity.",
+    "startDate": "May 2018",
+    "endDate": "August 2018",
+    "experience": [
+      {
+        "text": "Automated 40+ Internship Proposals to formal documents using Google Scripts.",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Developed a scalable strategy and integration with Google Sheets.",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Migrated from AngularJS to Angular for a code base of 30 000+ lines.",
+        "tag": ["programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "UX Developer & Designer",
+    "tag": ["competitor analysis", "User Experience", "pitching", "algorithms", "software"],
+    "company": "Art of Smart",
+    "blurb": "Art of Smart Education is an award winning provider of world class tutoring and inspirational mentoring.",
+    "startDate": "June 2018",
+    "endDate": "Jan 2019",
+    "experience": [
+      {
+        "text": "Designed & built a student-friendly ATAR Calculator by comparing competitors' designs to create a more resourceful and sustainable user experience.",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Independently facilitated my development in ReactJS, HTML and CSS to successfully deploy my first website.",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Proposed static and dynamic prototypes with stakeholders to align with the vision for the product and company.",
+        "tag": ["programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "Team Leader",
+    "tag": ["mentoring", "leadership", "organisation", "recruitment", "innovation", "initative", "growth"],
+    "company": "Art of Smart",
+    "blurb": "Art of Smart Education is an award winning provider of world class tutoring and inspirational mentoring.",
+    "startDate": "June 2018",
+    "endDate": "Jan 2019",
+    "experience": [
+      {
+        "text": "Mentored a team of 30+ tutors to maintain excellent customer service and build a team exuding confidence..",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Created tailored strategies, plans and initiated self-reflection resulting in higher coach and customer retention.",
+        "tag": ["programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "Academic Coach & Mentor Workshop Presenter",
+    "tag": ["public speaking", "teaching", "presenting", "education", "leadership"],
+    "company": "Art of Smart",
+    "blurb": "Art of Smart Education is an award winning provider of world class tutoring and inspirational mentoring.",
+    "startDate": "June 2018",
+    "endDate": "Jan 2019",
+    "experience": [
+      {
+        "text": "Facilitated a workshop with the CEO to train 80+ new academic coaches from all over NSW & Melbourne.",
+        "tag": ["programming"],
+        "rank": "10"
+      }
+    ]
+  },
+  {
+    "role": "Design Intern",
+    "tag": ["User Experiencer", "design", "user research", "prototyping"],
+    "company": "Doppler Education",
+    "blurb": "Doppler was an education-technology platform that connected students and lecturers over video lectures.",
+    "startDate": "June 2018",
+    "endDate": "Jan 2019",
+    "experience": [
+      {
+        "text": "Performed 15+ user tests to validate assumptions and build empathy with user for the product.",
+        "tag": ["programming"],
+        "rank": "10"
+      },
+      {
+        "text": "Extrapolated valid and useful user data to curate future tasks, developments and feature implementation.",
+        "tag": ["programming"],
+        "rank": "10"
+      }
+    ]
+  }
+]

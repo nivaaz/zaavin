@@ -1,0 +1,22 @@
+{
+  "Soft Skills": [
+    "Communication",
+    "Team Work",
+    "Initiative",
+    "Problem solving",
+    "Interpersonal",
+    "Organising",
+    "Initiative",
+    "Leadership",
+    "Adaptability"
+  ],
+  "Technical Skills": [
+      "ReactJS", 
+      "HTML/CSS", 
+      "Javascript", 
+      "jQuery",
+      "Angular", 
+      "VueJS", 
+      "Matlab"
+  ]
+}

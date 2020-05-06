@@ -8,17 +8,20 @@ class Convo extends React.Component {
         question: 0,
         answers: [],
     };
+    
     onClickResponse = (e) => {
-        let ans = this.state.answers;
-        ans[e.target.name] = e.target.value;
-        const currquestion = Number(e.target.name) + 1;
-        this.setState(
+        e.preventDefault();
+        let ans = this.state.answers; //get the answers array
+        ans[e.target.name] = e.target.value; //assign new value from button
+        const currquestion = Number(e.target.name) + 1; //update question
+        this.setState(  // update state
             {
                 question: currquestion,
                 answers: ans
             }
             , console.log(this.state))
     }
+
     renderResponses = (resp, questionId) => {
         const btns = resp.map((val, ind) => {
             if (this.state.answers[questionId] == ind) {
@@ -45,13 +48,18 @@ class Convo extends React.Component {
         })
         return <div className={styles.ansContainer}> {btns} </div>
     }
+
     renderCheckOut = (val, key) => {
         if (this.state.answers[val] != 0) {
-            return 
+            return
         } else {
-            return (<a href={key.link}><p className={styles.question}> {key.render} <FontAwesomeIcon icon={['fab', key.social]}/> </p> </a>)
+            return (<a href={key.link}>
+                <p className={styles.question}>
+                    {key.render}
+                    <FontAwesomeIcon icon={['fab', key.social]} /> </p> </a>)
         }
     }
+
     renderConvo = () => {
         const x = convo.map((key, val) => {
             if (val > this.state.question) {
@@ -71,6 +79,7 @@ class Convo extends React.Component {
         )
         return (<div>{x}</div>)
     }
+
     render() {
         return (
             <div className={styles.convoContainer}>
@@ -79,4 +88,5 @@ class Convo extends React.Component {
             </div>)
     }
 }
+
 export default Convo;

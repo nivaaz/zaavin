@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.resumeItem{
+    color: #FF4757;
+    border-radius: 1em;
+    background-color: whitesmoke;
+    width: 90vw;
+    margin: auto;
+    box-shadow: 0px 0px 20px 0px rgba(83, 24, 29, 0.205);
+    padding: 1em;
+}
+
+.resumeItem p, .resumeItem li{
+    margin: 1em;
+    font-family: 'Jost', sans-serif;
+}
+.resumeItem li{
+    font-size: smaller;
+}
+.resumeItem p{
+    font-size: small;
+}
+
+.selectStory{
+    margin: auto;
+}
+ button, button.unselected{
+    margin: 0 1em;
+    border: none;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: #FF4757;
+    color: whitesmoke;
+    font-size: smaller;
+}
+button:hover{
+    box-shadow: 0px 0px 10px 0px rgba(78, 22, 27, 0.452);
+}
+ button.selected {
+    background-color: #FF4757;
+    color: whitesmoke;
+    border: 2px solid white;
+}
+
+/*name of role, company and time in role.*/
+.dates, .resumeItem h3{
+    display: inline;
+}
+.blurb{
+    font-size:smaller;
+}
+h1{
+    text-align: center;
+}
+.tag{
+    color: #FF4757;
+    width: fit-content;
+    border-radius: 1em;
+    padding: 0.5em;
+    font-size: small;
+    margin: 0.5em;
+    border: 1px solid #FF4757;
+    text-transform: capitalize;
+}
+.tagsContainer{
+    display: inline-flex;
+}
+
+.resumeContainer{
+    display: grid;
+    grid-gap: 1em;
+}
+
+button{
+    margin: auto;
+}
