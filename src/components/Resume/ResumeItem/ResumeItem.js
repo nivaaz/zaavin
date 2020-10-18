@@ -3,7 +3,6 @@ import styles from "./resumeItem.module.css"
 
 /* render the dot points for each experience  */
 const renderExperience = exp => {
-  // console.log(exp)
   return exp.map(val => {
     return <li> {val.text} </li>
   })
@@ -14,6 +13,7 @@ const renderTags = (tags) =>{
     return <div className={styles.tag}> {key} </div>
   })
 }
+
 const ResumeItem = (item, key) => {
   return (
     <div key={key} className={styles.resumeItem}>
@@ -30,7 +30,8 @@ const ResumeItem = (item, key) => {
       {renderExperience(item.item.experience)}
 
       <div className={styles.tagsContainer}>
-        {renderTags(item.item.tag)}
+        {renderTags(item.item.tech)}
+        {renderTags(item.item.soft)}
       </div>
     </div>
   )

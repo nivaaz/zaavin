@@ -16,7 +16,7 @@
     background: #ff6b8179;
     border: none;
     border-radius: 2em;
-    color: black;
+    color: white;
     margin-left: 1em;
     cursor: pointer;
 }
@@ -27,6 +27,7 @@
 .responseButtonSelected{
     background: #ff6b81;
     color: white;
+    border: 1px solid white;
     cursor: pointer;
 }
 .ansContainer{

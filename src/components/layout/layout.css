@@ -2,12 +2,11 @@
 /*custom*/
 .app{
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   background-color: #ff4757;
   margin: none;
   color: white;
-  display: flex;
-  flex-direction: column;
+  display: grid;
 }
 h1{
   margin: 0;

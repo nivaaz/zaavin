@@ -7,7 +7,7 @@
     width: 90vw;
     margin: auto;
     box-shadow: 0px 0px 20px 0px rgba(83, 24, 29, 0.205);
-    padding: 1em;
+    padding: 8px;
 }
 
 .resumeItem p, .resumeItem li{
@@ -20,26 +20,22 @@
 .resumeItem p{
     font-size: small;
 }
-
-.selectStory{
-    margin: auto;
-}
  button, button.unselected{
-    margin: 0 1em;
+    margin: auto 4px;
     border: none;
     border-radius: 1em;
-    padding: 1em;
+    padding: 8px;
     background-color: #FF4757;
     color: whitesmoke;
+    border: 2px solid white;
     font-size: smaller;
 }
 button:hover{
     box-shadow: 0px 0px 10px 0px rgba(78, 22, 27, 0.452);
 }
  button.selected {
-    background-color: #FF4757;
-    color: whitesmoke;
-    border: 2px solid white;
+    background-color:whitesmoke;
+    color:#FF4757;
 }
 
 /*name of role, company and time in role.*/
@@ -54,21 +50,19 @@ h1{
 }
 .tag{
     color: #FF4757;
-    width: fit-content;
-    border-radius: 1em;
-    padding: 0.5em;
+    width: max-content;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0 4px;
     font-size: small;
-    margin: 0.5em;
+    line-height: 100%;
     border: 1px solid #FF4757;
+    display: inline-block;
     text-transform: capitalize;
 }
 .tagsContainer{
-    display: inline-flex;
-}
-
-.resumeContainer{
-    display: grid;
-    grid-gap: 1em;
+    width: 80%;
+    padding: 0 1em;
 }
 
 button{

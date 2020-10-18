@@ -4,19 +4,27 @@
     "Team Work",
     "Initiative",
     "Problem solving",
-    "Interpersonal",
-    "Organising",
-    "Initiative",
+    "Organisation",
     "Leadership",
-    "Adaptability"
+    "Public Speaking",
+    "Entrepenurship",
+    "Pitching",
+    "Innovation",
+    "consulting"
   ],
   "Technical Skills": [
-      "ReactJS", 
-      "HTML/CSS", 
-      "Javascript", 
-      "jQuery",
-      "Angular", 
-      "VueJS", 
-      "Matlab"
+    "ReactJS",
+    "Python", 
+    "Verilog", 
+    "HTML/CSS", 
+    "Javascript", 
+    "jQuery",
+    "Angular", 
+    "VueJS", 
+    "Matlab",
+    "Frontend",
+    "Product Management","Lighting design", "Power Design",
+    "Google scripts",
+    "Recruitment"
   ]
-}
+} 

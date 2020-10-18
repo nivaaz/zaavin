@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
       </Link>
       <SocialLinks/>
       <Link to="/Projects/"> Projects </Link>
-      {/* <Link to="/Resume/"> Resume </Link> */}
+      <Link to="/Resume/"> Resume </Link>
     </h1>
   </header>
 )
